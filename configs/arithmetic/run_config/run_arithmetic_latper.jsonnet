@@ -8,8 +8,8 @@ function(args={}) {
     },
     args: _default_args + args,
 
-    logdir: "log/arithmetic/latper_%d" % $.args.exp_id,
-    model_config: "configs/arithmetic/model_config/arithmetic_latper.jsonnet",
+    logdir: "/home/chenyang/ssh_proj/permutation/log/arithmetic/latper_%d" % $.args.exp_id,
+    model_config: "/home/chenyang/ssh_proj/permutation/configs/arithmetic/model_config/arithmetic_latper.jsonnet",
 
     model_config_args: {
         # data

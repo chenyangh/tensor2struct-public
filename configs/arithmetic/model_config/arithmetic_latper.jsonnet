@@ -1,4 +1,4 @@
-local _data_path = 'data/arithmetic/';
+local _data_path = '/home/chenyang/ssh_proj/permutation/data/arithmetic/';
 
 function(args={}, data_path=_data_path) {
 
